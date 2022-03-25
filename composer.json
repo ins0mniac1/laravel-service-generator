@@ -1,0 +1,28 @@
+{
+    "name": "ins0mniac/service-generator",
+    "description": "The package provide commands for generating services and interfaces and registering them in the dependency container",
+    "type": "library",
+    "require": {
+        "php": ">=v7.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Rusev",
+            "email": "ins0mniac1van@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Ins0mniac\\ServiceGenerator\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers" : [
+                "\\Ins0mniac\\ServiceGenerator\\ServiceGeneratorProvider"
+            ]
+        }
+    }
+}
