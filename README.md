@@ -44,7 +44,7 @@ The list of the available commands are shown below:
 You can install this package via [Composer](http://getcomposer.org/) by running this command: 
 
 ```bash
-composer require name-of-the-package
+composer require ins0mniac/service-generator
 ```
 
 > **NOTE :** The package will automatically register itself.
